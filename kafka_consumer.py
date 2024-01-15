@@ -3,10 +3,10 @@ from psycopg2 import pool
 from kafka import KafkaConsumer 
 from json import loads
 
-host = "c-formula1project.jdpzgjvxtuiy4h.postgres.cosmos.azure.com"
+host = "<your-hostname>"
 dbname = "citus"
 user = "citus"
-password = "Dangerdude@123"
+password = "<your-database-password>"
 sslmode = "require"
 
 # Build a connection string from the variables
